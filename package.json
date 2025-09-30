@@ -1,0 +1,23 @@
+{
+  "name": "presto",
+  "version": "0.1.0",
+  "description": "Presto turns Markdown repositories into simple static sites with zero configuration.",
+  "type": "module",
+  "bin": {
+    "presto": "./presto.js"
+  },
+  "scripts": {
+    "presto": "node presto.js"
+  },
+  "keywords": [
+    "markdown",
+    "static-site",
+    "cms",
+    "cli"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "marked": "^9.1.0"
+  }
+}
